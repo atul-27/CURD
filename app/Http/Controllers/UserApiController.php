@@ -27,7 +27,7 @@ class UserApiController extends Controller
             \Session::flash('message', $validatedData->errors()); 
             return redirect('register');      
           
-        }
+        }   
        
         
         
