@@ -25,7 +25,7 @@ class UserApiController extends Controller
      
         if ($validatedData->fails()) {
             \Session::flash('message', $validatedData->errors()); 
-            return redirect('register'); 
+            return redirect('register');      
           
         }
        
